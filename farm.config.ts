@@ -7,9 +7,6 @@ export default defineConfig({
       '/v1': {
         target: 'http://localhost:9527',
         changeOrigin: true,
-        pathRewrite: {
-          '^/v1': '/v1'
-        }
       }
     }
   }
